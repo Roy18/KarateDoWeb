@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="uzone@localhost" uuid="55c86c42-1f98-4676-bb7e-3ae05ed2c985">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:Karate,uzone</introspection-schemas>
+    </data-source>
+  </component>
+</project>
