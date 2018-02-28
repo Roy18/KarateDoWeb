@@ -1,0 +1,72 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="model.username">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="minLength">6</param>
+            <param name="trim">true</param>
+            <message></message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-ZñÑ0-9]+</param>
+            <message>El usuario solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+    <field name="model.password">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-ZñÑ0-9]+</param>
+            <message>La contraseña solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+    <field name="model.name">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-Z ñÑ]+</param>
+            <message>El nombre solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+    <field name="model.lastName">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-Z ñÑ]+</param>
+            <message>El apellido solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+    <field name="model.email">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="email">
+            <message>Ingrese un email adecuado</message>
+        </field-validator>
+    </field>
+    <field name="model.birthDate">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="date">
+            <message>Ingrese una fecha adecuada</message>
+        </field-validator>
+    </field>
+    <field name="model.genre">
+        <field-validator type="regex">
+            <param name="regexExpression">M|F</param>
+            <message>Seleccione un genero</message>
+        </field-validator>
+    </field>
+    <field name="model.userType.id">
+        <field-validator type="regex">
+            <param name="regexExpression">1|2</param>
+            <message>Seleccione un tipo de usuario</message>
+        </field-validator>
+    </field>
+</validators>
