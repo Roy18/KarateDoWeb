@@ -1,0 +1,30 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="model.title">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+    </field>
+    <field name="model.url">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">(?:https?:\/\/)?(?:www\.)?youtu\.?be(?:\.com)?\/?.*(?:watch|embed)?(?:.*v=|v\/|\/)([\w\-_]+)</param>
+            <message>Link invalido</message>
+        </field-validator>
+        <field-validator type="url">
+            <message>Ingrese un Url valido</message>
+        </field-validator>
+    </field>
+    <field name="model.description">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="maxLength">300</param>
+            <param name="trim">true</param>
+            <message>Cantidad de caracteres sobrepasado </message>
+        </field-validator>
+    </field>
+</validators>
