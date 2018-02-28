@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.Post;
 import com.universo7.Karatewebprofile.models.KarateService;
@@ -10,7 +10,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import java.util.List;
 import java.util.Map;
 
-public class LoginAction extends ActionSupport implements ModelDriven<User>,SessionAware {
+public class LoginBean extends ActionSupport implements ModelDriven<User>,SessionAware {
     private Map<String, Object> sessionMap;
     private User user= new User();
     private List<Post> posts;

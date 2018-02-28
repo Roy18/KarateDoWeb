@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 
 import com.universo7.Karatewebprofile.models.Post;
@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
-public class PostAction extends ActionSupport implements ModelDriven<Post>,SessionAware {
+public class PostBean extends ActionSupport implements ModelDriven<Post>,SessionAware {
     private Map<String, Object> sessionMap;
     private Post post= new Post();
     private List<Post> posts;

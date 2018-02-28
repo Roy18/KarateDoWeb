@@ -1,11 +1,11 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.interceptor.SessionAware;
 
 import java.util.Map;
 
-public class LogoutAction extends ActionSupport implements SessionAware {
+public class RedirectBean extends ActionSupport implements SessionAware {
     private Map<String, Object> sessionMap;
 
     @Override
@@ -13,12 +13,10 @@ public class LogoutAction extends ActionSupport implements SessionAware {
         this.sessionMap = sessionMap;
     }
 
+    @Override
     public String execute() throws Exception {
-        if (sessionMap.containsKey("username")) {
-            sessionMap.remove("username");
-            sessionMap.remove("id");
-            sessionMap.remove("userType");
-        }
-        return SUCCESS;
+        if(sessionMap.containsKey("username")) {
+            return SUCCESS;
+        } else return ERROR;
     }
 }

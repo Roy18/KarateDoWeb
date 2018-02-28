@@ -12,97 +12,97 @@
         <action name="index">
             <result>index.jsp</result>
         </action>
-        <action name="dataUser" class="com.universo7.Karatewebprofile.actions.PostAction">
+        <action name="dataUser" class="com.universo7.Karatewebprofile.beans.PostBean">
             <result name="success">index.jsp</result>
         </action>
-        <action name="register" class="com.universo7.Karatewebprofile.actions.UserAction" method="execute">
+        <action name="register" class="com.universo7.Karatewebprofile.beans.UserBean" method="execute">
             <result name="success">index.jsp</result>
             <result name="input">userRegister.jsp</result>
         </action>
-        <action name="dataEvent" class="com.universo7.Karatewebprofile.actions.EventAction">
+        <action name="dataEvent" class="com.universo7.Karatewebprofile.beans.EventBean">
             <result name="success">main.jsp</result>
         </action>
-        <action name="login" class="com.universo7.Karatewebprofile.actions.LoginAction" method="execute">
+        <action name="login" class="com.universo7.Karatewebprofile.beans.LoginBean" method="execute">
             <result name="success">main.jsp</result>
             <result name="input">index.jsp</result>
         </action>
-        <action name="logout" class="com.universo7.Karatewebprofile.actions.LogoutAction" method="execute">
+        <action name="logout" class="com.universo7.Karatewebprofile.beans.LogoutBean" method="execute">
             <result name="success">index.jsp</result>
         </action>
-        <action name="self" class="com.universo7.Karatewebprofile.actions.SelfProfileAction" method="execute">
+        <action name="self" class="com.universo7.Karatewebprofile.beans.SelfProfileBean" method="execute">
             <result name="success">profilePage.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="profile" class="com.universo7.Karatewebprofile.actions.ProfileAction" method="execute">
+        <action name="profile" class="com.universo7.Karatewebprofile.beans.ProfileBean" method="execute">
             <result name="success">profilePage.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="home" class="com.universo7.Karatewebprofile.actions.HomeAction" method="execute">
+        <action name="home" class="com.universo7.Karatewebprofile.beans.HomeBean" method="execute">
             <result name="success">main.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="createPost" class="com.universo7.Karatewebprofile.actions.PostAction" method="execute">
+        <action name="createPost" class="com.universo7.Karatewebprofile.beans.PostBean" method="execute">
             <result name="success">main.jsp</result>
             <result name="error">index.jsp</result>
             <result name="input">createPost.jsp</result>
         </action>
-        <action name="createEvent" class="com.universo7.Karatewebprofile.actions.EventAction" method="execute">
+        <action name="createEvent" class="com.universo7.Karatewebprofile.beans.EventBean" method="execute">
             <result name="success">main.jsp</result>
             <result name="error">createEvent.jsp</result>
         </action>
-        <action name="searchVideo" class="com.universo7.Karatewebprofile.actions.SearchAction" method="execute">
+        <action name="searchVideo" class="com.universo7.Karatewebprofile.beans.SearchBean" method="execute">
             <result name="success">main.jsp</result>
             <result name="error">main.jsp</result>
         </action>
-        <action name="contribution" class="com.universo7.Karatewebprofile.actions.ContributionAction" method="execute">
+        <action name="contribution" class="com.universo7.Karatewebprofile.beans.ContributionBean" method="execute">
             <result name="success">contribution.jsp</result>
             <result name="error">main.jsp</result>
         </action>
-        <action name="point" class="com.universo7.Karatewebprofile.actions.PointAction" method="execute">
+        <action name="point" class="com.universo7.Karatewebprofile.beans.PointBean" method="execute">
             <result name="success">profilePage.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="redirectCreatePost" class="com.universo7.Karatewebprofile.actions.RedirectAction" method="execute">
+        <action name="redirectCreatePost" class="com.universo7.Karatewebprofile.beans.RedirectBean" method="execute">
             <result name="success">createPost.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="redirectCreateEvent" class="com.universo7.Karatewebprofile.actions.RedirectAction" method="execute">
+        <action name="redirectCreateEvent" class="com.universo7.Karatewebprofile.beans.RedirectBean" method="execute">
             <result name="success">createEvent.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="listEvents" class="com.universo7.Karatewebprofile.actions.EventListAction" method="execute">
+        <action name="listEvents" class="com.universo7.Karatewebprofile.beans.EventListBean" method="execute">
             <result name="success">listEvent.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="emailer" class="com.universo7.Karatewebprofile.actions.Emailer" method="execute">
+        <action name="emailer" class="com.universo7.Karatewebprofile.beans.Emailer" method="execute">
             <result name="success">/success.jsp</result>
             <result name="error">/error.jsp</result>
         </action>
-        <action name="postDetails" class="com.universo7.Karatewebprofile.actions.PostDetailsAction" method="execute">
+        <action name="postDetails" class="com.universo7.Karatewebprofile.beans.PostDetailsBean" method="execute">
             <result name="success">postDetails.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="createComment" class="com.universo7.Karatewebprofile.actions.NewCommentAction" method="execute">
+        <action name="createComment" class="com.universo7.Karatewebprofile.beans.NewCommentBean" method="execute">
             <result name="success">postDetails.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="delete" class="com.universo7.Karatewebprofile.actions.DeleteVideoAction" method="execute">
+        <action name="delete" class="com.universo7.Karatewebprofile.beans.DeleteVideoBean" method="execute">
             <result name="success">contribution.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="postulant" class="com.universo7.Karatewebprofile.actions.PostulantAction" method="execute">
+        <action name="postulant" class="com.universo7.Karatewebprofile.beans.PostulantBean" method="execute">
             <result name="success">listEvent.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="eventPostulants" class="com.universo7.Karatewebprofile.actions.showPostulantsAction" method="execute">
+        <action name="eventPostulants" class="com.universo7.Karatewebprofile.beans.showPostulantsBean" method="execute">
             <result name="success">eventDetails.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="userPostulant" class="com.universo7.Karatewebprofile.actions.RelatedEventsAction" method="execute">
+        <action name="userPostulant" class="com.universo7.Karatewebprofile.beans.RelatedEventsBean" method="execute">
             <result name="success">myEvents.jsp</result>
             <result name="error">index.jsp</result>
         </action>
-        <action name="updateProfile" class="com.universo7.Karatewebprofile.actions.updateProfileAction" method="execute">
+        <action name="updateProfile" class="com.universo7.Karatewebprofile.beans.updateProfileBean" method="execute">
             <result name="success">profilePage.jsp</result>
             <result name="error">index.jsp</result>
         </action>

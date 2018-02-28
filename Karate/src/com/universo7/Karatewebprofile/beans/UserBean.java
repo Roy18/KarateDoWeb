@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.KarateService;
 import com.universo7.Karatewebprofile.models.User;
@@ -6,7 +6,7 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
 
-public class UserAction  extends ActionSupport implements ModelDriven<User> {
+public class UserBean extends ActionSupport implements ModelDriven<User> {
     private User user= new User();
 
     @Override

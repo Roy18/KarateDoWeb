@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.Information;
 import com.universo7.Karatewebprofile.models.KarateService;
@@ -8,7 +8,7 @@ import org.apache.struts2.interceptor.SessionAware;
 
 import java.util.Map;
 
-public class PointAction extends ActionSupport implements ModelDriven<Information>,SessionAware {
+public class PointBean extends ActionSupport implements ModelDriven<Information>,SessionAware {
     private Map<String, Object> sessionMap;
     private Information information;
     String target;

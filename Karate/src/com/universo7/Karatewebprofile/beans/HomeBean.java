@@ -1,6 +1,5 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
-import com.universo7.Karatewebprofile.models.Event;
 import com.universo7.Karatewebprofile.models.Post;
 import com.universo7.Karatewebprofile.models.KarateService;
 import com.opensymphony.xwork2.ActionSupport;
@@ -9,19 +8,9 @@ import org.apache.struts2.interceptor.SessionAware;
 import java.util.List;
 import java.util.Map;
 
-public class ContributionAction extends ActionSupport implements SessionAware {
-    private  Post post = new Post();
+public class HomeBean extends ActionSupport implements SessionAware{
     private Map<String, Object> sessionMap;
     private List<Post> posts;
-    private List<Event> events;
-
-    public List<Event> getEvents() {
-        return events;
-    }
-
-    public void setEvents(List<Event> events) {
-        this.events = events;
-    }
 
     public List<Post> getPosts() {
         return posts;
@@ -36,18 +25,13 @@ public class ContributionAction extends ActionSupport implements SessionAware {
         this.sessionMap = sessionMap;
     }
 
-
     @Override
-    public String execute() throws Exception {
+    public String execute() {
         KarateService service = new KarateService();
         if (sessionMap.containsKey("username")) {
-            if((int)sessionMap.get("id")==1) {
-                setPosts(service.findByUser((int)sessionMap.get("id")));
-                setEvents(service.findEventByUser((int)sessionMap.get("id")));
-            }
-
+            setPosts(service.findLastest());
             return SUCCESS;
-        } else return ERROR;
+        }
+        return ERROR;
     }
-
 }

@@ -6,7 +6,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec983f49-4b76-40af-9bc2-b4ae217241b1" name="Default" comment="" />
+    <list default="true" id="ec983f49-4b76-40af-9bc2-b4ae217241b1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/ContributionAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/ContributionBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/DeleteVideoAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/DeleteVideoBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/Emailer.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/Emailer.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/EventAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/EventBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/EventListAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/EventListBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/HomeAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/HomeBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/LoginAction-validation.xml" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/LoginBean-validation.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/LoginAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/LoginBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/LogoutAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/LogoutBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/NewCommentAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/NewCommentBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/PointAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PointBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/PostAction-validation.xml" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PostBean-validation.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/PostAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PostBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/PostDetailsAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PostDetailsBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/PostulantAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PostulantBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/ProfileAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/ProfileBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/RedirectAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/RedirectBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/RelatedEventsAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/RelatedEventsBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/SearchAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/SearchBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/SelfProfileAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/SelfProfileBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/UserAction-validation.xml" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/UserBean-validation.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/UserAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/UserBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/showPostulantsAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/showPostulantsBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/actions/updateProfileAction.java" afterPath="$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/updateProfileBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change beforePath="$PROJECT_DIR$/web/Add-ons/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/web/Add-ons/vendor/jquery/jquery.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="948" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="948" selection-end-column="10" />
+            <state relative-caret-position="15793">
+              <caret line="1003" column="21" lean-forward="false" selection-start-line="1003" selection-start-column="21" selection-end-line="1003" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteVideoBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/DeleteVideoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Karate_war_exploded.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/Karate_war_exploded.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -89,6 +137,12 @@
       <replace>KDW</replace>
       <replace>Karate Do Web</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -166,6 +220,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,20 +239,45 @@
             <path>
               <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Karate" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karate" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karate" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Karate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Karatewebprofile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Karate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Karatewebprofile" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Karate" type="b2602c69:ProjectViewProjectNode" />
@@ -209,10 +292,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,46 +547,55 @@
       <workItem from="1519797762258" duration="127000" />
       <workItem from="1519798260914" duration="1313000" />
       <workItem from="1519799837197" duration="270000" />
+      <workItem from="1519856752482" duration="1215000" />
     </task>
+    <task id="LOCAL-00001" summary="corregido">
+      <created>1519856866523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519856866523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124994000" />
+    <option name="totallyTimeSpent" value="126209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33700788" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36062992" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20410156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36062992" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,26 +604,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corregido" />
+    <option name="LAST_COMMIT_MESSAGE" value="corregido" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/actions/SelfProfileAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/SelfProfileBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/actions/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/actions/PointAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/PointBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
@@ -544,21 +636,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Karate/com/glitched/Karatewebprofile/Backup/ContributionAction.class" />
     <entry file="file://$PROJECT_DIR$/out/production/Karate/com/glitched/Karatewebprofile/actions/ContributionAction.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/actions/DeleteVideoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/models/KarateDataStore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/models/KarateDataStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/actions/ContributionAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/ContributionBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="45" column="72" lean-forward="false" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
@@ -611,14 +696,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
@@ -629,7 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glitched/Karatewebprofile/models/Postulant.java">
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/models/Postulant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -757,13 +842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/Karate_war_exploded/termsOfUse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Karate_war_exploded/termsOfUse.jsp" />
     <entry file="file://$PROJECT_DIR$/web/forgotPass.jsp" />
     <entry file="file://$PROJECT_DIR$/web/email.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,13 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Karate_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources/55c86c42-1f98-4676-bb7e-3ae05ed2c985.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22782">
@@ -802,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,8 +943,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="948" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="948" selection-end-column="10" />
+        <state relative-caret-position="15793">
+          <caret line="1003" column="21" lean-forward="false" selection-start-line="1003" selection-start-column="21" selection-end-line="1003" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/universo7/Karatewebprofile/beans/DeleteVideoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Karate_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>

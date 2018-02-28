@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.Event;
 import com.universo7.Karatewebprofile.models.KarateService;
@@ -8,7 +8,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import java.util.List;
 import java.util.Map;
 
-public class RelatedEventsAction extends ActionSupport implements SessionAware {
+public class RelatedEventsBean extends ActionSupport implements SessionAware {
     private Map<String, Object> sessionMap;
     private List<Event> events;
 

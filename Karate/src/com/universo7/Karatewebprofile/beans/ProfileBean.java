@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.Information;
 import com.universo7.Karatewebprofile.models.KarateService;
@@ -8,9 +8,27 @@ import org.apache.struts2.interceptor.SessionAware;
 
 import java.util.Map;
 
-public class SelfProfileAction extends ActionSupport implements ModelDriven<Information>,SessionAware {
+public class ProfileBean extends ActionSupport implements ModelDriven<Information>,SessionAware {
     private Map<String, Object> sessionMap;
     private Information information;
+    String username;
+    int value;
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     @Override
     public void setSession(Map<String, Object> sessionMap) {
@@ -26,7 +44,8 @@ public class SelfProfileAction extends ActionSupport implements ModelDriven<Info
     public String execute() throws Exception {
         KarateService service = new KarateService();
         if (sessionMap.containsKey("username")) {
-            information=service.findInformationByUserId((int)sessionMap.get("id"));
+            information=service.findInformationByUserUsername(username);
+            value=service.getQuantity((int)sessionMap.get("id"),information.getUser().getId());
             return SUCCESS;
         }
         return ERROR;

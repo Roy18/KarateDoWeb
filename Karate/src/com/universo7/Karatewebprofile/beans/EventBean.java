@@ -1,4 +1,4 @@
-package com.universo7.Karatewebprofile.actions;
+package com.universo7.Karatewebprofile.beans;
 
 import com.universo7.Karatewebprofile.models.Event;
 import com.universo7.Karatewebprofile.models.Post;
@@ -10,7 +10,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import java.util.List;
 import java.util.Map;
 
-public class EventAction extends ActionSupport implements ModelDriven<Event>, SessionAware {
+public class EventBean extends ActionSupport implements ModelDriven<Event>, SessionAware {
     private Event event= new Event();
     private Map<String, Object> sessionMap;
     private List<Event> events;
