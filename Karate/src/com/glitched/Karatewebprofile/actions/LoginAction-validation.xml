@@ -1,0 +1,26 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="model.username">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="minLength">6</param>
+            <param name="trim">true</param>
+            <message></message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-ZñÑ0-9]+</param>
+            <message>El usuario solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+    <field name="model.password">
+        <field-validator type="requiredstring">
+            <message>Campo Obligatorio</message>
+        </field-validator>
+        <field-validator type="regex">
+            <param name="regexExpression">[a-zA-ZñÑ0-9]+</param>
+            <message>La contraseña solo debe contener letras y numeros</message>
+        </field-validator>
+    </field>
+</validators>
